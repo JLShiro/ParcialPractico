@@ -1,5 +1,11 @@
-h1{
+*{
+}
 
+h1{
+  border-radius: 25px;
+  background: pink;
+  padding: 15px;
+  width: auto;
 }
 
 p{
@@ -21,14 +27,37 @@ aside{
     width: 54px
 }
 
+#comment{
+  
+}
+
+fieldset{
+  width: 1115px;
+  height: 290px;
+}
+
 form fieldset input{
   margin-bottom: 10px;
-  width: 15%;
+  width: 25%;
   line-height: 5mm;
 }
 
-textarea{
+#comment-label{
   position: relative;
-  left: 20%;
-  top: 20%;
+  left: 350px;
+  bottom: 365px;
+}
+
+#submit{
+  position: relative;
+  left: 220px;
+  bottom: 120px;
+}
+
+#comment-input{
+  position: relative;
+  left: 283px;
+  bottom: 247px;
+  width: 750px;
+  height: 210px;
 }
