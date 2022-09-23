@@ -1,56 +1,63 @@
-* {
+*{
     font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: #8AE0F0;
+  background: url(background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.background{
+  background-color: #fbe0c3;
+  width: 1000px;
+  margin: auto;
 }
 
 section p{
-    margin-left: 220px;
+  margin-left: 110px;
 }
 
 h2 {
-    margin-left: 200px;
+  margin-left: 80px;
 }
 
 .user {
-    margin-left: 200px;
+  margin-left: 80px;
 }
 
 .comment-content {
-    margin-left: 210px;
+  margin-left: 210px;
 }
 
 .reply-button {
-    margin-left: 115px;
+  margin-left: 7px;
 }
 
-fieldset {
-    margin-left: 100px;
-}
 h1{
-    margin-left: 150px;
-    margin-right: 150px;
-    border-radius: 25px;
-    background: pink;
-    padding: 15px;
-    width: auto;
-  }
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 25px;
+  background: #e59560;
+  padding: 15px;
+  width: auto;
+}
   
-  p{
-    max-width: 50%;
+.content-text{
+    max-width: 500px;
     text-align: justify;
-  }
+}
   
-  aside{
-    width: 22%;
+aside{
+    width: 265px;
     padding-left: 15px;
-    margin-left: 15px;
     float: right;
     font-style: italic;
     background-color: lightgray;
-  }
+    border-radius: 25px;
+}
     
   .user{
       height: 54px;
@@ -63,47 +70,59 @@ h1{
     bottom: 40px;
   }
   
-  .comment-content{
+  .comment-text{
     position: relative;
     left: 83px;
     bottom: 45px;
+    max-width: 500px;
   }
   
   .reply-button{
     position: relative;
-    left: 83px;
-    bottom: 50px;
+    left: 185px;
+    bottom: 55px;
   }
   
   
   fieldset{
-    width: 1115px;
-    height: 290px;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 45px;
+    width: 880px;
+    height: 300px;
   }
   
+  legend {
+    font-weight: bold;
+    border: 1px solid #888;
+    padding: .5em;
+    background-color: #CCC;
+  }
+
   form fieldset input{
     margin-bottom: 10px;
-    width: 25%;
+    width: 250px;
     line-height: 5mm;
   }
   
   #comment-label{
     position: relative;
-    left: 350px;
-    bottom: 365px;
+    left: 270px;
+    bottom: 368px;
   }
   
   #submit{
     position: relative;
-    left: 220px;
+    left: 134px;
     bottom: 120px;
   }
   
   #comment-input{
     position: relative;
-    left: 283px;
-    bottom: 247px;
-    width: 750px;
+    left: 195px;
+    bottom: 250px;
+    width: 600px;
     height: 210px;
   }
 
@@ -122,29 +141,39 @@ img {
 
 .Menú {
     width: 900px;
-    margin: 0 auto;
+    height: 157px;
+    margin: auto;
 }
 
 header {
-    width: 100%;
-    clear: both;
+  background-color: black;
+  max-width: 1000px;
+  margin: auto;
+  clear: both;
+}
+
+header form{
+  position: relative;
+  left: 266px;
+  bottom: 115px;
 }
 
 nav {
-    margin-top: 70px;
-    background-color: red;
-    float: right;
+  height: 87px;
+  position: relative;
+  margin-top: 70px;
+  float: right;
 }
 nav ul li {
-    list-style: none;
-    margin-left: 55px;
-    padding: 25px 0;
-    float: left;
+  list-style: none;
+  margin-right: 54px;
+  padding: 25px 0;
+  float: left;
 }
 
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .Footer {
@@ -152,6 +181,7 @@ nav ul li a{
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1000px;
+    height: 156px;
     margin: auto;
     margin-top: 100px;
     background-color: black;
@@ -160,8 +190,6 @@ nav ul li a{
 .box__footer {
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
-    padding: 30px;
     flex-wrap: wrap;
 }
 
