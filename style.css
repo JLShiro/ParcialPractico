@@ -1,4 +1,37 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #8AE0F0;
+}
+
+section p{
+    margin-left: 220px;
+}
+
+h2 {
+    margin-left: 200px;
+}
+
+.user {
+    margin-left: 200px;
+}
+
+.comment-content {
+    margin-left: 210px;
+}
+
+.reply-button {
+    margin-left: 115px;
+}
+
+fieldset {
+    margin-left: 100px;
+}
 h1{
+    margin-left: 150px;
+    margin-right: 150px;
     border-radius: 25px;
     background: pink;
     padding: 15px;
@@ -98,13 +131,14 @@ header {
 }
 
 nav {
-    background-color: #8AE0F0;
+    margin-top: 70px;
+    background-color: red;
     float: right;
 }
 nav ul li {
     list-style: none;
-    margin-left: 60px;
-    padding: 60px 0;
+    margin-left: 55px;
+    padding: 25px 0;
     float: left;
 }
 
