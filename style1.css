@@ -1,0 +1,75 @@
+h1{
+  border-radius: 25px;
+  background: pink;
+  padding: 15px;
+  width: auto;
+}
+
+p{
+  max-width: 50%;
+  text-align: justify;
+}
+
+aside{
+  width: 22%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+  
+.user{
+    height: 54px;
+    width: 54px
+}
+
+span{
+  position: relative;
+  left: 25px;
+  bottom: 40px;
+}
+
+.comment-content{
+  position: relative;
+  left: 83px;
+  bottom: 45px;
+}
+
+.reply-button{
+  position: relative;
+  left: 83px;
+  bottom: 50px;
+}
+
+
+fieldset{
+  width: 1115px;
+  height: 290px;
+}
+
+form fieldset input{
+  margin-bottom: 10px;
+  width: 25%;
+  line-height: 5mm;
+}
+
+#comment-label{
+  position: relative;
+  left: 350px;
+  bottom: 365px;
+}
+
+#submit{
+  position: relative;
+  left: 220px;
+  bottom: 120px;
+}
+
+#comment-input{
+  position: relative;
+  left: 283px;
+  bottom: 247px;
+  width: 750px;
+  height: 210px;
+}
