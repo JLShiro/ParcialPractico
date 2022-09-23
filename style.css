@@ -74,6 +74,14 @@ h1{
     height: 210px;
   }
 
+.icon{
+  position: fixed;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  right: 25px;
+}
+
 img {
     width: 250px;
 }
