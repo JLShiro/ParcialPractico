@@ -114,8 +114,9 @@ aside{
   
   #submit{
     position: relative;
-    left: 134px;
+    left: 130px;
     bottom: 120px;
+    width: 60px;
   }
   
   #comment-input{
